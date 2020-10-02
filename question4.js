@@ -14,3 +14,11 @@ console.log((snakeCaseArr(['Coding Is Fun']) === ['coding_is_fun']) ? "Test 1: P
 console.log((snakeCaseArr(['Coding Is Fun', 'Dogs ARE cool']) === ['coding_is_fun', 'dogs_are_cool']) ? "Test 2: Passing" : "Test 2: Failing");
 
 console.log((snakeCaseArr(['cats are CUTE', 'Dogs ARE cool']) === ['cats_are_cute', 'dogs_are_cool']) ? "Test 3: Passing" : "Test 3: Failing");
+
+
+console.log((snakeCaseArr(['Coding Is Fun'])));
+
+console.log((snakeCaseArr(['Coding Is Fun', 'Dogs ARE cool'])));
+
+console.log((snakeCaseArr(['cats are CUTE', 'Dogs ARE cool'])));
+
